@@ -1,0 +1,20 @@
+apiVersion: 1
+
+datasources:
+  - name: postgres
+    uid: effb3et575qf4b
+    type: postgres
+    access: proxy
+    url: aws-1-us-east-1.pooler.supabase.com:5432
+    user: postgres.irjzhqrawpjqcicmbwwc
+    database: postgres
+    editable: true
+
+    secureJsonData:
+      password: "los4fantasticos*"
+
+    jsonData:
+      database: postgres
+      sslmode: require
+      postgresVersion: 1500
+      timescaledb: false

@@ -1,0 +1,8 @@
+fastf1
+pandas
+numpy
+supabase
+requests
+jupyter
+nbconvert
+ipykernel
